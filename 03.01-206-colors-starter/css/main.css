@@ -28,7 +28,7 @@ header {
 /*---------- CONTENT AREA ----------*/
 
 .col-3 {
-  width: 100%;
+  width: 50%;
   height: 320px;
   float: left;
 }
@@ -86,22 +86,26 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: gold;
-  }
+    }
 
   #column-1 {
     background-color: lightblue;
+    
   }
 
   #column-2 {
     background-color: blue;
+
   }
 
   #column-3 {
     background-color: darkblue;
-  }
+      }
 
   footer {
     background-color: purple;
   }
 
+  .col-3 {
+width: 33.3%;
 }
